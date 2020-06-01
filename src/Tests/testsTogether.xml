@@ -6,6 +6,7 @@
         <classes>
             <class name="Tests.Tests1"/>
             <class name="Tests.Tests2"/>
+            <class name="Tests.BeforeWholeTests"/>
         </classes>
     </test>
 </suite>
