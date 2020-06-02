@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Grouping.NationalityTestCases"/>
+            <class name="Grouping.CityTestCases"/>
+            <class name="Grouping.FeeTestCases"/>
+            <class name="Grouping.BeforeAndAfterGroupings.AfterGroup"/>
+        </classes>
+    </test>
+</suite>
